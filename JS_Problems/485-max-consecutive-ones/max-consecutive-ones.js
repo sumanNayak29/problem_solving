@@ -18,6 +18,6 @@ var findMaxConsecutiveOnes = function (nums) {
         }
     }
 
-    return consucutCounter > tempCounter? consucutCounter : tempCounter
+    return Math.max(tempCounter,consucutCounter)
 
 };
